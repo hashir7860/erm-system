@@ -20,6 +20,92 @@
     <link rel="stylesheet" href="assets/css/odometer.css" />
     <link rel="stylesheet" href="assets/css/slick.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <style>
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-15px);
+        }
+      }
+
+      .cs_line_1, 
+      .cs_line_2 {
+        animation: bounce 2s infinite ease-in-out;
+      }
+    </style> -->
+    <!-- <style>
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .cs_line_1,
+      .cs_line_2 {
+        animation: spin 5s linear infinite;
+      }
+    </style> -->
+    <!-- <style>
+      @keyframes fadeInScale {
+        0% {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      .cs_line_1,
+      .cs_line_2 {
+        animation: fadeInScale 1.5s ease forwards;
+      }
+    </style> -->
+    <style>
+      @keyframes moveLeftRight {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(10rem); /* move right */
+        }
+        100% {
+          transform: translateX(0); /* back to original */
+        }
+      }
+
+      .cs_cta_shape_1,
+      .cs_cta_shape_2 {
+        animation: moveLeftRight 3s ease-in-out infinite;
+      }
+    </style>
+
+    <style>
+      @keyframes moveLeftRight {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(20px); /* move right */
+        }
+        100% {
+          transform: translateX(10px); /* back to original */
+        }
+      }
+
+      .cs_line_1,
+      .cs_line_2 {
+        animation: moveLeftRight 3s ease-in-out infinite;
+      }
+    </style>
   </head>
   <body>
     <!-- Start Preloader -->
@@ -1544,7 +1630,8 @@
             </a>
           </div>
           <div class="cs_footer_text cs_heading_color">
-            Copyright &copy; <span class="cs_getting_year"></span>. All Right Reserved
+            Copyright &copy; <span class="cs_getting_year"></span>. All Right
+            Reserved
           </div>
         </div>
       </div>
@@ -1622,5 +1709,9 @@
       data-cf-beacon='{"rayId":"94a72c5fed6903e8","version":"2025.5.0","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"6f756f02820545e3be40ddc6eb6154c3","b":1}'
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
